@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 7px;
+    
+    
+
+
+
+}
+
+
+
+
+/* nav */
+
+#menu{
+    width: 60%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+    background-color: #fff;
+    text-align: end;
+    padding: 20px;
+    margin-bottom: 140px;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+
+
+}
+
+#menu a{
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 16px;
+
+
+
+}
+
+#menu a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/* title */
+
+#title{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+    background-color: #fff;
+}
+
+#title_heading h1{
+    color: var(--Dark-Color, #21243D);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+
+}
+
+#title_heading pre{
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#title_heading button{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+
+
+
+}
+
+
+/* post */
+
+
+
+#post_body{
+    width: 100%;
+    height: 396px;
+    background: #EDF7FA;
+    margin: auto;
+
+}
+
+#post_menu{
+    width: 45%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+#post_menu p{
+    color: var(--Dark-Color, #21243D);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 272.727% */
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+#post_menu a{
+    margin-top: 27px;
+    color: var(--Secondry, #00A8CC);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    text-decoration: none;
+    
+}
+#post{
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+#post_1{
+    width: 418px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    height: 295px;
+    margin-right: 10px;
+    
+}
+
+#post_1 h3{
+    color: var(--Dark-Color, #21243D);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 23px;
+    padding-top: 24px;
+    margin-bottom: 17px;
+
+
+}
+
+
+#post_1 p{
+    color: var(--Dark-Color, #21243D);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+    padding-left: 23px;
+    margin-bottom: 11px;
+    
+}
+
+#post_1 pre{
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 23px;
+}
+
+/* feature work  */
+
+
+
+#feature_work {
+    width: 45%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:138px ;
+
+
+}
+
+#feature_work h3{
+    color: var(--Dark-Color, #21243D);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+#feature_work_post{
+    
+    display: flex;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #E0E0E0;
+    border-width: 100%;
+
+
+    
+}
+
+
+
+#feature_work_post img{
+    padding-right:18px ;
+    
+}
+
+#feature_work_post h3{
+    color: var(--Dark-Color, #21243D);
+    font-style: normal;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-size: 30px;
+}
+
+#feature_work_post p{
+    display: inline;
+    
+}
+
+
+#year{
+    border-radius: 16px;
+    background: #142850;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 333.333% */
+    height: 25px;
+    padding: 1px 10px;
+    margin-right: 26px;
+}
+
+#p_1{
+    color: var(--Light, #8695A4);
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+}
+
+
+/* footer  */
+
+#footer{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#footer a{
+    padding: 0 18px;
+    
+}
+
+#footer p{
+    color: var(--Dark, #21243D);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 26px;
+    padding-bottom: 54px;
+    
+}
